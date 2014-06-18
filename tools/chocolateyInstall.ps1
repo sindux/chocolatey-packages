@@ -1,0 +1,2 @@
+Install-ChocolateyZipPackage 'Play' 'http://downloads.typesafe.com/play/2.2.1/play-2.2.1.zip' "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+Install-ChocolateyPath "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\play-2.2.1" 'Machine'
