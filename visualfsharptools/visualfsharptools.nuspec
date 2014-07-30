@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>visualfsharptools</id>
+    <title>Visual F# Tools</title>
+    <version>3.1.1</version>
+    <authors>Microsoft</authors>
+    <owners>sindux</owners>
+    <summary>Visual F# Tools</summary>
+    <description>This package updates Visual F# tools in Visual Studio 2013 Ultimate, Premium, Professional to support new features in F# 3.1. This package can also be installed on top of Visual Studio 2013 Express for Windows Desktop, and Visual Studio 2013 Express for Web. If installing on a system without Visual Studio, the compiler and runtime will be deployed without IDE tooling. </description>
+    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=41654</projectUrl>
+    <tags>Microsoft Visual Studio 2013 F#</tags>
+    <copyright></copyright>
+    <licenseUrl>https://visualfsharp.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://fsharp.org/img/logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
