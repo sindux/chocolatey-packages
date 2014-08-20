@@ -3,12 +3,12 @@
   <metadata>
     <id>visualfsharptools</id>
     <title>Visual F# Tools</title>
-    <version>3.1.1</version>
+    <version>3.1.2</version>
     <authors>Microsoft</authors>
     <owners>sindux</owners>
     <summary>Visual F# Tools</summary>
     <description>This package updates Visual F# tools in Visual Studio 2013 Ultimate, Premium, Professional to support new features in F# 3.1. This package can also be installed on top of Visual Studio 2013 Express for Windows Desktop, and Visual Studio 2013 Express for Web. If installing on a system without Visual Studio, the compiler and runtime will be deployed without IDE tooling. </description>
-    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=41654</projectUrl>
+    <projectUrl>https://visualfsharp.codeplex.com/</projectUrl>
     <tags>Microsoft Visual Studio 2013 F#</tags>
     <copyright></copyright>
     <licenseUrl>https://visualfsharp.codeplex.com/license</licenseUrl>
@@ -17,7 +17,10 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+3.1.2: http://blogs.msdn.com/b/fsharpteam/archive/2014/08/20/announcing-the-release-of-visual-f-tools-3-1-2.aspx
+3.1.1: http://blogs.msdn.com/b/fsharpteam/archive/2014/01/22/announcing-visual-f-3-1-1-and-support-for-desktop-express.aspx
+</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
