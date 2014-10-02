@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>racket</id>
+    <title>Racket</title>
+    <version>6.1</version>
+    <authors>PLT Inc.</authors>
+    <owners>sindux</owners>
+    <summary>Racket - A programmable programming language</summary>
+    <description>Racket is a full-spectrum programming language. It goes beyond Lisp and Scheme with dialects that support objects, types, laziness, and more. Racket enables programmers to link components written in different dialects, and it empowers programmers to create new, project-specific dialects. Racket's libraries support applications from web servers and databases to GUIs and charts.</description>
+    <projectUrl>http://racket-lang.org/</projectUrl>
+    <tags>racket lisp scheme</tags>
+    <copyright></copyright>
+    <licenseUrl>http://download.racket-lang.org/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://upload.wikimedia.org/wikipedia/commons/e/e5/Racket_logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>If you'd like to install 32-bit version on 64-bit Windows, pass "-x86" argument to cinst</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
