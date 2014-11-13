@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>datomic-free</id>
+    <title>Datomic Free</title>
+    <version>0.9.5067</version>
+    <authors>Cognitect</authors>
+    <owners>sindux</owners>
+    <summary>Datomic - The fully transactional, cloud-ready, immutable database</summary>
+    <description>
+Datomic is a distributed database designed to enable scalable, flexible and intelligent applications, running on next-generation cloud architectures.
+
+Datomic Free is suitable for open-source projects requiring distribution, but is limited to 2 simultaneous peers and transactor-local storage only.
+
+You can download Datomic Console http://docs.datomic.com/console.html by registering here: https://my.datomic.com/downloads/console?requires=account.
+    </description>
+    <projectUrl>http://www.datomic.com/</projectUrl>
+    <tags>datomic cognitect</tags>
+    <copyright>Cognitect, Inc.</copyright>
+    <licenseUrl>http://www.datomic.com/datomic-free-edition-license.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://my.datomic.com/img/logo-clean.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
