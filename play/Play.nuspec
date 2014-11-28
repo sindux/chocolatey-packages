@@ -2,16 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Play</id>
-    <version>2.3.0</version>
+    <version>2.3.6</version>
     <title>Play Framework</title>
     <authors>Play Framework Foundation</authors>
-    <owners>kenerwin88</owners>
+    <owners>kenerwin88 sindux</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <projectUrl>http://www.playframework.com</projectUrl>
-    <iconUrl>http://www.playframework.com/assets/images/logos/normal.png</iconUrl>
+    <iconUrl>https://www.playframework.com/assets/images/logos/play_full_color.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Play Framework makes it easy to build web applications with Java &amp; Scala. Play is based on a lightweight, stateless, web-friendly architecture. This package installs Play 2.3.0 including Activator 1.2.2.</description>
-    <summary>Play 2.3.0 with Activator 1.2.2</summary>
+    <description>Play Framework makes it easy to build web applications with Java &amp; Scala. Play is based on a lightweight, stateless, web-friendly architecture.
+
+    This package installs Play 2.3.6 including Activator 1.2.10.
+
+    If you're upgrading from previous version, you may need to manually remove the previous version from your PATH environment variable.</description>
+    <summary>Play 2.3.6 with Activator 1.2.10</summary>
     <tags>play, scala, framework</tags>
   </metadata>
 </package>
