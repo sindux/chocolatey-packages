@@ -8,14 +8,12 @@
     <owners>kenerwin88 sindux</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <projectUrl>http://www.playframework.com</projectUrl>
-    <iconUrl>https://www.playframework.com/assets/images/logos/play_full_color.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/playframework/playframework.com/0926ce54a1ab00ee4bdd2e78f3bb0265f1310a66/public/images/logos/play_icon_full_color.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Play Framework makes it easy to build web applications with Java &amp; Scala. Play is based on a lightweight, stateless, web-friendly architecture.
-
     This package installs Play 2.3.6 including Activator 1.2.10.
-
     If you're upgrading from previous version, you may need to manually remove the previous version from your PATH environment variable.</description>
     <summary>Play 2.3.6 with Activator 1.2.10</summary>
-    <tags>play, scala, framework</tags>
+    <tags>play scala framework</tags>
   </metadata>
 </package>
