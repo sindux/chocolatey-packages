@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>clang</id>
+    <title>clang: a C language family frontend for LLVM</title>
+    <version>3.6.0</version>
+    <authors>Apple</authors>
+    <owners>sindux</owners>
+    <summary>clang: a C language family frontend for LLVM</summary>
+    <description>Clang is a compiler front end for the C, C++, Objective-C and Objective-C++ programming languages. It uses LLVM as its back end and has been part of the LLVM release cycle since LLVM 2.6.</description>
+    <projectUrl>http://clang.llvm.org/</projectUrl>
+    <tags>clang llvm</tags>
+    <copyright></copyright>
+    <licenseUrl>http://llvm.org/docs/DeveloperPolicy.html#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <iconUrl>http://llvm.org/img/DragonSmall.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
