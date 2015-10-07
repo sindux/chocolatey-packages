@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>clang</id>
     <title>clang: a C language family frontend for LLVM</title>
-    <version>3.6.0</version>
+    <version>3.7.0</version>
     <authors>Apple</authors>
     <owners>sindux</owners>
     <summary>clang: a C language family frontend for LLVM</summary>
