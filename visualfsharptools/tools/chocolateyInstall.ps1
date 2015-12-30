@@ -1,6 +1,6 @@
 ﻿$packageName = 'visualfsharptools'
 $installerType = 'EXE'
-$url = 'http://download.microsoft.com/download/E/A/3/EA38D9B8-E00F-433F-AAB5-9CDA28BA5E7D/FSharp_Bundle.exe'
+$url = 'http://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe'
 $silentArgs = '/install /quiet'
 $validExitCodes = @(0)
 

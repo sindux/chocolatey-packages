@@ -3,21 +3,22 @@
   <metadata>
     <id>visualfsharptools</id>
     <title>Visual F# Tools</title>
-    <version>3.1.2</version>
+    <version>4.0</version>
     <authors>Microsoft</authors>
     <owners>sindux</owners>
     <summary>Visual F# Tools</summary>
-    <description>This package updates Visual F# tools in Visual Studio 2013 Ultimate, Premium, Professional to support new features in F# 3.1. This package can also be installed on top of Visual Studio 2013 Express for Windows Desktop, and Visual Studio 2013 Express for Web. If installing on a system without Visual Studio, the compiler and runtime will be deployed without IDE tooling. </description>
-    <projectUrl>https://visualfsharp.codeplex.com/</projectUrl>
-    <tags>Microsoft Visual Studio 2013 F#</tags>
+    <description>This package updates Visual F# tools in Visual Studio 2013 Ultimate, Premium, Professional to support new features in F# 4.0. This package can also be installed on top of Visual Studio 2013 Express for Windows Desktop, and Visual Studio 2013 Express for Web. If installing on a system without Visual Studio, the compiler and runtime will be deployed without IDE tooling. All recent versions of Visual Studio come with the Visual F# Tools, using an on-demand install the first time you create or open an F# project.</description>
+    <projectUrl>https://github.com/Microsoft/visualfsharp</projectUrl>
+    <tags>Microsoft Visual Studio F#</tags>
     <copyright></copyright>
-    <licenseUrl>https://visualfsharp.codeplex.com/license</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/visualfsharp/master/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://fsharp.org/img/logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
+4.0.0: http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-the-rtm-of-visual-f-4-0.aspx
 3.1.2: http://blogs.msdn.com/b/fsharpteam/archive/2014/08/20/announcing-the-release-of-visual-f-tools-3-1-2.aspx
 3.1.1: http://blogs.msdn.com/b/fsharpteam/archive/2014/01/22/announcing-visual-f-3-1-1-and-support-for-desktop-express.aspx
 </releaseNotes>
