@@ -1,7 +1,7 @@
 ﻿$packageName = 'racket'
 $installerType = 'EXE'
-$url = 'http://mirror.racket-lang.org/installers/6.1/racket-6.1-i386-win32.exe'
-$url64 = 'http://mirror.racket-lang.org/installers/6.1/racket-6.1-x86_64-win32.exe'
+$url = 'https://mirror.racket-lang.org/installers/6.4/racket-6.4-i386-win32.exe'
+$url64 = 'https://mirror.racket-lang.org/installers/6.4/racket-6.4-x86_64-win32.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
