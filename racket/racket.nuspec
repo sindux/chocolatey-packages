@@ -3,7 +3,7 @@
   <metadata>
     <id>racket</id>
     <title>Racket</title>
-    <version>6.5</version>
+    <version>6.7</version>
     <authors>PLT Inc.</authors>
     <owners>sindux</owners>
     <summary>Racket - A programmable programming language</summary>
